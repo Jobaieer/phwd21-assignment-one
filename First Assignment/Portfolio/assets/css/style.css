@@ -128,7 +128,6 @@
 
 #about-me {
   padding-top: 200px;
-  padding-bottom: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -151,4 +150,131 @@
 .about-me-right h1 {
   font-weight: 700;
   font-size: 45px;
+}
+
+/* My Experience Section*/
+
+#my-experience {
+  margin: 100px 0px;
+  background: linear-gradient(
+    270.16deg,
+    rgba(255, 177, 71, 0.1) 5.74%,
+    rgba(255, 108, 99, 0.1) 50.64%,
+    rgba(184, 106, 223, 0.1) 92.05%
+  );
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-experience-left {
+  width: 100%;
+}
+
+.my-experience-left h5 {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.my-experience-left h5 {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.my-experience-left h1 {
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 15px;
+}
+
+.my-experience-left p {
+  font-size: 18px;
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+.my-experience-right {
+  width: 100%;
+}
+
+.right-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.right-up h5 {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.right-up p {
+  font-size: 13.28px;
+}
+.experience-block {
+  padding: 20px 0px;
+}
+
+.experience-block h1 {
+  font-weight: 700;
+  font-size: 35px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--font-secondary-color);
+}
+
+/* All Section Top Title*/
+.top {
+  margin-top: 100px;
+  text-align: center;
+}
+.top h1 {
+  font-weight: 800;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.top p {
+  font-size: 12px;
+  color: var(--font-secondary-color);
+}
+
+/* Awards Section*/
+#awards {
+  margin: 100px 0px;
+}
+
+.awards-f {
+  background-color: black;
+  padding: 50px 50px;
+  margin: 50px 0px;
+}
+
+.awards-f p {
+  color: var(--font-secondary-color);
+}
+
+.awards-flex-fs {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.awards-s {
+  background-color: black;
+  padding: 50px 50px;
+  margin: 50px 0px;
+}
+
+.awards-s p {
+  color: var(--font-secondary-color);
+}
+
+/*My Portfolio Section*/
+
+#my-portfolio {
+  margin: 100px 0px;
 }
