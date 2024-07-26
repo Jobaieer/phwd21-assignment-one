@@ -28,13 +28,13 @@
   /* Customize link color */
 }
 
-.download-cv {
+.download-cv.button {
   background-color: #2692bc;
   /* Set the button background color */
   padding: 10px 15px;
   /* Add padding to the button */
-  border-radius: 0px;
-  /* Round the button corners */
+  /*border-radius: 0px;
+   Round the button corners */
   color: var(--font-primary-color);
   /* Text color */
 }
