@@ -28,7 +28,7 @@
   /* Customize link color */
 }
 
-.download-cv.button {
+.button {
   background-color: #2692bc;
   /* Set the button background color */
   padding: 10px 15px;
@@ -90,7 +90,7 @@
 
 .portfolio-h4 {
   display: flex;
-  background-color: #2692bc;
+  background-color: var(--primary-color);
   width: 150px;
   justify-content: center; /* for width */
   height: 40px;
@@ -156,6 +156,9 @@
 
 #my-experience {
   margin: 100px 0px;
+}
+
+.my-experience-bg {
   background: linear-gradient(
     270.16deg,
     rgba(255, 177, 71, 0.1) 5.74%,
@@ -165,8 +168,10 @@
 
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.my-experience-wrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -248,7 +253,7 @@
 }
 
 .awards-f {
-  background-color: black;
+  background-color: var(--background-sp-color);
   padding: 50px 50px;
   margin: 50px 0px;
 }
@@ -277,4 +282,211 @@
 
 #my-portfolio {
   margin: 100px 0px;
+}
+
+.my-projects-button {
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.normal-button {
+  background-color: #2692bc;
+  padding: 10px 15px;
+  background: var(--background-sp-color);
+}
+
+.my-projects-button a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.my-projects-wrapper {
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+.my-f-project {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+.projects-text h3 {
+  font-weight: 600;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.projects-text h1 {
+  font-weight: 700;
+  font-size: 35px;
+  padding: 10px 0px;
+}
+
+.projects-text p {
+  font-size: 12px;
+  text-align: justify;
+  word-break: keep-all;
+  color: var(--font-secondary-color);
+}
+
+.my-S-project {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+/*Contact Section*/
+
+.top h4 {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.contact-gap {
+  padding-bottom: 50px;
+}
+
+.contact-form-bg {
+  background: var(--primary-sp-color);
+}
+
+.contact-form {
+  padding: 100px 100px;
+}
+
+.contact-form h1 {
+  font-weight: 800;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.contact-name-email {
+  display: flex;
+  flex-direction: row; /* Stack inputs vertically */
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-name-email input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--font-primary-color);
+  background: none;
+}
+
+#name {
+  width: 50%;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#email {
+  width: 50%;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#massage {
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--font-primary-color);
+}
+
+.file-input-container {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.file-icon {
+  margin-right: 5px;
+  font-size: 20px;
+  color: var(--font-primary-color); /* Customize the icon color */
+}
+
+.file-input {
+  border: none;
+  display: none;
+}
+
+/*It hides the default file input button.*/
+input[type="file"]::-webkit-file-upload-button {
+  display: none;
+}
+
+.submit-now {
+  text-decoration: none;
+}
+
+.contact-wrapper {
+  padding-bottom: 100px;
+}
+
+/* Footer */
+#footer {
+  background: var(--background-sp-color);
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-logo img {
+  width: 200px;
+  padding-top: 100px;
+}
+
+#footer-nav-menu {
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+#footer-nav-menu a {
+  text-decoration: none;
+}
+
+.footer-sm {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 0px;
+}
+
+.footer-sm li {
+  list-style: none;
+}
+
+.footer-copyright {
+  background-color: #121212;
+  padding: 20px 0px;
+}
+
+.footer-copyright h3 {
+  text-align: center;
+}
+
+.fn-color {
+  color: var(--primary-color);
 }
