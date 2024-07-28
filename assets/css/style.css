@@ -120,8 +120,8 @@
   justify-content: center;
   background-color: black;
   padding: 15px 0px;
-  transform: rotate(-3.97deg) scaleX(1.25) scaleY(2); /*Banner Rotate */
-  font-size: 17.5px;
+  transform: rotate(-3.97deg) scaleX(1.27) scaleY(2); /*Banner Rotate */
+  font-size: 17.3px;
 }
 
 /*About Me Section*/
@@ -173,6 +173,7 @@
 .my-experience-wrapper {
   display: flex;
   align-items: center;
+  padding: 100px 0px;
 }
 
 .my-experience-left {
@@ -248,9 +249,6 @@
 }
 
 /* Awards Section*/
-#awards {
-  margin: 100px 0px;
-}
 
 .awards-f {
   background-color: var(--background-sp-color);
@@ -279,10 +277,6 @@
 }
 
 /*My Portfolio Section*/
-
-#my-portfolio {
-  margin: 100px 0px;
-}
 
 .my-projects-button {
   margin-top: 50px;

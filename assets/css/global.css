@@ -23,6 +23,10 @@
 }
 
 .container {
+  max-width: 1150px;
+  margin: 0px auto;
+}
+
+body {
   background-color: #1e1e1e;
-  padding: 0px 150px;
 }
