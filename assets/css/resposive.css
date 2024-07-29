@@ -1,0 +1,146 @@
+/* This is Mobile Responsive CSS File */
+
+@media only screen and (max-width: 480px) {
+  .container {
+    max-width: 95%;
+  }
+
+  /*Header*/
+  .navbar-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #nav-menu {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-logo img {
+    padding-bottom: 20px;
+  }
+
+  /*Hero Section*/
+
+  #hero {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-left {
+    padding-bottom: 40px;
+  }
+
+  #hero h1 {
+    font-size: 29px;
+  }
+
+  p br {
+    display: none;
+  }
+
+  .font-color {
+    font-size: 29px;
+  }
+
+  .hero-right img {
+    width: 100%;
+    height: 437.74px;
+  }
+
+  .skills h4 {
+    font-size: 19.7px;
+  }
+
+  /*Banner Section*/
+
+  #banner-container {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+    top: 10px;
+  }
+
+  /*About Me Section*/
+
+  #about-me {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .about-me-left {
+    text-align: center;
+  }
+
+  /*My Experience Section*/
+
+  .my-experience-wrapper {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding: 50px 0px;
+  }
+
+  .my-experience-left {
+    text-align: center;
+  }
+
+  /*Award Section*/
+
+  .awards-flex-fs {
+    gap: 20px;
+  }
+
+  .awards-f p {
+    text-align: justify;
+  }
+
+  .awards-s p {
+    text-align: justify;
+  }
+
+  /*Contact Section*/
+
+  .contact-form {
+    padding: 50px 50px;
+  }
+
+  /*My Portfolio - Projects Section*/
+
+  .my-projects-button a {
+    font-size: 6.5px;
+  }
+
+  .projects-img img {
+    width: 350px;
+  }
+
+  .my-f-project {
+    flex-direction: column;
+  }
+
+  .my-S-project {
+    flex-direction: column-reverse;
+    gap: 30px;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  /*Footer Section*/
+
+  .footer-logo img {
+    padding: 50px 0px;
+  }
+
+  #footer-nav-menu {
+    justify-content: center;
+    gap: 15px;
+    font-size: 13px;
+    padding-top: 0px;
+  }
+}
