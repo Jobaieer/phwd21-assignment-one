@@ -468,6 +468,12 @@ input[type="file"]::-webkit-file-upload-button {
   padding: 50px 0px;
 }
 
+.footer-sm ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
 .footer-sm li {
   list-style: none;
 }
