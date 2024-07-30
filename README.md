@@ -1,6 +1,6 @@
-![Logo](https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1719556404000.jpg)
+![Logo](https://i.pinimg.com/736x/0d/46/7e/0d467edda6588a21bcc9130914ca96ad.jpg)
 
-# `Programming Hero`X`Web Development 21 Days of Code`-`PHWD21`
+## `Programming Hero`X`Web Development 21 Days of Code`-`PHWD21`
 
 In this repo, I want to share my first assignment `Portfolio` on this `Web Development 21 Days of Code Challenge` workshop. Which is `Responsive` Designed for `Mobile Devices`.
 
