@@ -1,0 +1,27 @@
+![Logo](https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1719556404000.jpg)
+
+# `Programming Hero`X`Web Development 21 Days of Code`-`PHWD21`
+
+In this repo, I want to share my first assignment `Portfolio` on this `Web Development 21 Days of Code Challenge` workshop. Which is `Responsive` Designed for `Mobile Devices`.
+
+## 🖇️Live-Server
+
+Live-Server link of this `phwd21_assignments`
+
+`Surge` - https://i-jobaieer.surge.sh/
+
+`GitHub Pages` - https://jobaieer.github.io/phwd21_assignments/
+
+## 🧑‍💻Tech Stack
+
+**Language:** `HTML` & `CSS`
+
+**Server:** `Github Pages` & `Surge`
+
+## 🔗Connected with `@jobaieer`
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://tinyurl.com/jobaieer)
+
+[![facebook](https://img.shields.io/badge/facebook-316FF6?style=for-the-badge&logo=facebook&logoColor=white)](https://twitter.com/jobaieerofficial)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jobaieer)
