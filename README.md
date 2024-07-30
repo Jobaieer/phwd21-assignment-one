@@ -1,4 +1,6 @@
-![Logo](https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1719556404000.jpg)
+<div align="center">
+	<img src="./image/phwd21.jpg">
+</div>
 
 # `Programming Hero`X`Web Development 21 Days of Code`-`PHWD21`
 
