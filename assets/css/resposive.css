@@ -58,9 +58,8 @@
   #banner-container {
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+    font-size: 16.8px;
     width: 300px;
-    top: 10px;
   }
 
   /*About Me Section*/

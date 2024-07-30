@@ -121,7 +121,9 @@
   background-color: black;
   padding: 15px 0px;
   transform: rotate(-3.97deg) scaleX(1.27) scaleY(2); /*Banner Rotate */
-  font-size: 17.3px;
+  font-size: 18.55px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /*About Me Section*/
